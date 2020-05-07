@@ -11,7 +11,6 @@ go get github.com/QSoloX/whoisyou
 ```
 
 ## Usage
-
 The basic usuage to save it the output to a file.
 ```bash
 ▶ cat domains.txt|whoisyou > output.txt
@@ -38,6 +37,9 @@ with open(f"output.txt") as file:
 https://site.com has the ip of 127.0.0.1
 https://example.com has the ip of 127.1.1.1
 ```
+
+## Tips
+* The idea behind this tool would be to first run a tool like https://github.com/tomnomnom/httprobe from tomnomnom and then use its output with whoisyou
 
 
 ## Known Issues
